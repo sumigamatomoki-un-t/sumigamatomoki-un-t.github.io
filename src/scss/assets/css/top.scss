@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/*
+* top.css
+*
+*/
+
+// Common Settings
+@use "global" as *;
+
+/* --------------------------------
+  top
+-------------------------------- */
+.xxxx {
+  background: tomato;
+
+  // Responsive typography
+  font-size: responsive 15px 17px;
+  lower-font-range: 320px;
+  upper-font-range: 375px;
+
+  // Shorthand positioning syntax
+  position: absolute 0 20px 10px 30px;
+}
